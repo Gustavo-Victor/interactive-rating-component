@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.thankyou-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+
+  .result {
+    padding: 0.5rem 1rem;
+    //font-size: 0.7rem;
+    border-radius: 1.3rem;
+    background-color: #262f38;
+    color: $orange;
+    margin: 1rem 0 1.2rem 0;
+  }
+
+  .thankyou-img {
+    width: 70%;
+    max-width: 150px;
+  }
+}
