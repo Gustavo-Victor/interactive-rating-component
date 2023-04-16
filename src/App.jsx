@@ -1,42 +1,30 @@
-import { useState } from 'react'
-import './styles/app.scss';
+import { useState } from "react";
+import Attribution from "./components/Attribution";
+import ReviewSection from "./components/ReviewSection";
+import ThankyouSection from "./components/ThankyouSection";
+import "./styles/app.scss";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [reviewNum, setReviewNum] = useState(0);
+  const [submitted, setSubmitted] = useState(false);
+
+  const submit = () => {
+    if (reviewNum <= 0 || reviewNum > 5) return;
+    setSubmitted(true);
+  };
 
   return (
-    <div className="App">
-      {/*Rating state start*/}
-
-      How did we do?
-
-      Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!
-
-      1 2 3 4 5
-
-      Submit
-
-      {/* {Rating state end} */}
-
-      {/* {Thank you state start}  */}
-
-      You selected Add rating here  out of 5
-
-      Thank you!
-
-      We appreciate you taking the time to give a rating. If you ever need more support,
-      don’t hesitate to get in touch!
-
-      {/* { Thank you state end} */}
-
-
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+    <div className="app">
+      <div className="container">
+        {submitted ? (
+          <ThankyouSection review={reviewNum} />
+        ) : (
+          <ReviewSection setReview={setReviewNum} submit={submit} />
+        )}
       </div>
+      <Attribution />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
