@@ -30,9 +30,9 @@ Usuários são capazes de:
 
 ### Screenshots
 
-![Desktop Review Section](./src/assets/images/desktop.png) ![Mobile Review Section](./src/assets/images/mobile.png)
+![Desktop Review Section](./src/images/desktop.png) ![Mobile Review Section](./src/images/mobile.png)
 
-![Desktop Thankyou Section](./src/assets/images/desktop2.png) ![Mobile Thankyou Section](./src/assets/images/mobile2.png)
+![Desktop Thankyou Section](./src/images/desktop2.png) ![Mobile Thankyou Section](./src/images/mobile2.png)
 
 
 ### Links
