@@ -31,7 +31,7 @@ function ReviewSection({ setReview, submit }) {
     return (
         <form id="form-review" onSubmit={handleSubmit} className="review-wrapper">
             {/*initial component*/}
-            <img className="star-img" src="https://raw.githubusercontent.com/Gustavo-Victor/interactive-rating-component/36a9509ce03ce1cf587d32ac0420d6818d89bd9d/src/images/icon-star.svg" alt="star" title="star" />
+            <img className="star-img" src="https://raw.githubusercontent.com/Gustavo-Victor/interactive-rating-component/b9704fd1a7053cc8188e8fe49739348fc23694e4/src/images/icon-star.svg" alt="star" title="star" />
             <h2 className="title">How did we do?</h2>
             <p>
                 Please let us know how we did with your support request. All feedback is
@@ -62,7 +62,7 @@ function ThankyouSection({ review }) {
         <div className="thankyou-wrapper">
             <img
                 className="thankyou-img"
-                src="https://raw.githubusercontent.com/Gustavo-Victor/interactive-rating-component/36a9509ce03ce1cf587d32ac0420d6818d89bd9d/src/images/illustration-thank-you.svg"
+                src="https://raw.githubusercontent.com/Gustavo-Victor/interactive-rating-component/b9704fd1a7053cc8188e8fe49739348fc23694e4/src/images/illustration-thank-you.svg"
                 alt="Thank you"
                 title="Thank you"
             />
