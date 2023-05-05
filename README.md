@@ -45,10 +45,8 @@ Usuários são capazes de:
 ### Tecnologias e Ferramentas
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [SASS](https://sass-lang.com/) 
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
 - [ReactJS](https://reactjs.org/) - biblioteca JS 
-- [Vite](https://vitejs.dev/)
-- [Codesabdbox](https://codesandbox.io)
 - Fontes: 
     - [Overpass (400, 700)](https://fonts.google.com/specimen/Overpass) 
 
